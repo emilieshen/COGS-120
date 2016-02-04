@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body background="bgimage.jpg">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link type = "text/css" rel="stylesheet" href="style.css">
+  <link type = "text/css" rel="stylesheet" href="css/navbarstyle.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="function.js"></script>
+
+  <title>FOODme</title>
+</head>
+
+  <body>
+    <div align="left"><button onclick="goBack()">Go Back</button></div>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  	<h4>Your roulette of only the best, local dishes</h4>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">FOODme</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- sign up icon
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li class ="dropdown"><a href="#">My Profile</a>
+              <div class = "dropdown-content">
+		  				  <a href = "#">Bookmarks</a>
+		  				  <a href = "#">Friends</a>
+		  				  <a href = "#">Settings</a>
+                </li>
+              </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id = "container">
+      <h1>ABOUT</h1>
+
+
+    </div> <!--end of container-->
+
+  </body>
+</html>
